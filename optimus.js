@@ -9,7 +9,11 @@
   var prevOptimus = root.Optimus;
 
   var has_require = typeof require !== 'undefined'
-  var Long = root.dcodeIO.Long;
+  var Long; 
+  
+  if(root.dcodeIO && root.dcodeIO.Long) {
+   Long = root.dcodeIO.Long;
+  }
   
   if(typeof Long === 'undefined') {
     if(has_require) {
