@@ -7,6 +7,10 @@
     "test": "./node_modules/.bin/jasmine-node ./test && phantomjs test/run-jasmine.js test/jasmine.html"
   },
   "author": "Chamindu R. Munasinghe",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chamindu/optimus-js.git"
+  },  
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
