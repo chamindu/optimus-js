@@ -25,5 +25,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "long": "~3.0.3"
+  }
 }
