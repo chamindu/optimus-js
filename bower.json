@@ -1,0 +1,29 @@
+{
+  "name": "optimus-js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chamindu/optimus-js",
+  "authors": [
+    "Chamindu R. Munasinghe <cmunasinghe@gmail.com>"
+  ],
+  "description": "Knuths multiplicative hashing based id obfuscation for javascript (port of https://github.com/jenssegers/optimus).",
+  "main": "optimus.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "optimus",
+    "hash",
+    "multiplicative",
+    "obfuscation",
+    "ids"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
