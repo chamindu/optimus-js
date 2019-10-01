@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Knuths multiplicative hashing based id obfuscation for javascript (port of https://github.com/jenssegers/optimus).",
   "main": "optimus.js",
+  "types": "optimus.d.ts",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node ./test && phantomjs test/run-jasmine.js test/jasmine.html"
   },
