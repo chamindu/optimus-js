@@ -1,6 +1,6 @@
 {
   "name": "optimus-js",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Knuths multiplicative hashing based id obfuscation for javascript (port of https://github.com/jenssegers/optimus).",
   "main": "optimus.js",
   "types": "optimus.d.ts",
@@ -11,7 +11,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:chamindu/optimus-js.git"
-  }, 
+  },
   "homepage": "https://github.com/chamindu/optimus-js",
   "bugs": "https://github.com/chamindu/optimus-js/issues",
   "keywords": [
@@ -20,10 +20,10 @@
     "multiplicative",
     "obfuscation",
     "ids"
-  ],  
+  ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^3.0.0"
   },
   "dependencies": {
     "long": "^3.0.3"
